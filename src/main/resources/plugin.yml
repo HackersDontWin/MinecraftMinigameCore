@@ -1,0 +1,18 @@
+name: MinecraftMinigameCore
+main: net.hackersdontwin.minecraftminigamecore.Main
+version: 1.0
+author: HackersDontWin
+
+commands:
+  newgame:
+    usage: /<command>
+    description: Creates a new game with the given ID
+  joingame:
+    usage: /<command>
+    description: Joins the specified game
+  leavegame:
+    usage: /<command>
+    description: Leaves the game the player is currently in
+  gamemsg:
+    usage: /<command>
+    description: Sends a message to the specified game
